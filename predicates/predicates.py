@@ -53,7 +53,6 @@ def dump_trapi_predicate_results(predicates, url):
         subject = edge.get('subject')
         objectt = edge.get('object')
         preds.append(predicate)
-        attribs.append()
         if 'attributes' in edge and edge.get('attributes') is not None:
             for attribute in edge.get('attributes'):
                 print(attribute)
