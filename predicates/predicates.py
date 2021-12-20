@@ -57,13 +57,10 @@ def dump_trapi_predicate_results(predicates, url):
         if 'attributes' in edge and edge.get('attributes') is not None:
             for attribute in edge.get('attributes'):
                 attribs.append(attribute.get('attribute_type_id'))
-                attribs.append(attribute)
                 tsv_writer_att.writerow([url, subject, predicate, objectt, attribute])
     preds = set(preds)
     attribs = set(attribs)
     return preds, attribs, url
-
-            # tsv_writer.writerow([subject, predicate, tobject, url])
 
 
 def get_predicates(pr_url):
