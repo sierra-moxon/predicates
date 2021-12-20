@@ -9,6 +9,7 @@ tsv_attributes = open("attributes.tsv", "w")
 tsv_writer = csv.writer(tsv_file, delimiter='\t')
 tsv_writer_att = csv.writer(tsv_attributes, delimiter='\t')
 
+
 def sample_predicates():
     specs = load_specs()
     kp_titles = []
@@ -27,7 +28,6 @@ def sample_predicates():
             predicates_url = f'{url}/meta_knowledge_graph'
             print(predicates_url)
             trapi, predicates = get_predicates(predicates_url)
-            # if is_trapi:
             if not predicates:
                 continue
             else:
@@ -37,9 +37,7 @@ def sample_predicates():
                 for pred in predicates:
                     tsv_writer.writerow([apititle, url, pred])
                 for attrib in attributes:
-                    tsv_writer_att.writerow([apititle, url, attrib])
-            # else:
-            #     dump_smartapi_predicate_results(spec['info']['title'])
+                    tsv_writer_att.writerow([url, attrib])
 
 
 def in_biolink_model(predicate):
@@ -52,10 +50,17 @@ def dump_trapi_predicate_results(predicates, url):
     attribs = []
     for edge in predicates.get('edges'):
         predicate = edge.get('predicate')
+        subject = edge.get('subject')
+        objectt = edge.get('object')
+        preds.append(predicate)
+        attribs.append()
         if 'attributes' in edge and edge.get('attributes') is not None:
             for attribute in edge.get('attributes'):
                 attribs.append(attribute.get('attribute_type_id'))
-        preds.append(predicate)
+                attribs.append(attribute)
+                tsv_writer_att.writerow([url, subject, predicate, objectt, attribute])
+    preds = set(preds)
+    attribs = set(attribs)
     return preds, attribs, url
 
             # tsv_writer.writerow([subject, predicate, tobject, url])
