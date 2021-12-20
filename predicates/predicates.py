@@ -26,16 +26,12 @@ def sample_predicates():
             if url.endswith('/'):
                 url = url[:-1]
             predicates_url = f'{url}/meta_knowledge_graph'
-            print(predicates_url)
             trapi, predicates = get_predicates(predicates_url)
             if not predicates:
                 continue
             else:
                 preds, attribs, url = dump_trapi_predicate_results(predicates, predicates_url)
-                predicates = set(preds)
                 attributes = set(attribs)
-                for pred in predicates:
-                    tsv_writer.writerow([apititle, url, pred])
                 for attrib in attributes:
                     tsv_writer_att.writerow([url, attrib])
 
@@ -55,9 +51,13 @@ def dump_trapi_predicate_results(predicates, url):
         preds.append(predicate)
         if 'attributes' in edge and edge.get('attributes') is not None:
             for attribute in edge.get('attributes'):
-                print(attribute)
                 attribs.append(attribute.get('attribute_type_id'))
-                tsv_writer_att.writerow([url, subject, predicate, objectt, attribute])
+                tsv_writer.writerow([url,
+                                     subject,
+                                     predicate,
+                                     objectt,
+                                     attribute.get('attribute_source'),
+                                     attribute.get('attribute_type_id')])
     preds = set(preds)
     attribs = set(attribs)
     return preds, attribs, url
