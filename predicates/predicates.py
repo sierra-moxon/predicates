@@ -3,6 +3,7 @@ import requests
 from biothings_explorer.smartapi_kg.dataload import load_specs
 from pprint import pprint
 from bmt import Toolkit
+import linkml_runtime
 
 tk = Toolkit('https://raw.githubusercontent.com/biolink/biolink-model/2.2.12/biolink-model.yaml')
 
