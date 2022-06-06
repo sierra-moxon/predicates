@@ -1,10 +1,10 @@
 import csv
-import bmt
 import requests
 from biothings_explorer.smartapi_kg.dataload import load_specs
 from pprint import pprint
+from bmt import Toolkit
 
-tk = bmt.Toolkit('https://raw.githubusercontent.com/biolink/biolink-model/2.2.12/biolink-model.yaml')
+tk = Toolkit('https://raw.githubusercontent.com/biolink/biolink-model/2.2.12/biolink-model.yaml')
 
 
 def sample_predicates():

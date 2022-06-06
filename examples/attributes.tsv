@@ -1,0 +1,122 @@
+SPOKE_KP_for_TRAPI_1.2	https://spokekp.healthdatascience.cloud/api/v1.2/meta_knowledge_graph	biolink:license
+SPOKE_KP_for_TRAPI_1.2	https://spokekp.healthdatascience.cloud/api/v1.2/meta_knowledge_graph	biolink:has_confidence_level
+SPOKE_KP_for_TRAPI_1.2	https://spokekp.healthdatascience.cloud/api/v1.2/meta_knowledge_graph	biolink:name
+SPOKE_KP_for_TRAPI_1.2	https://spokekp.healthdatascience.cloud/api/v1.2/meta_knowledge_graph	biolink:publications
+SPOKE_KP_for_TRAPI_1.2	https://spokekp.healthdatascience.cloud/api/v1.2/meta_knowledge_graph	biolink:has_evidence
+SPOKE_KP_for_TRAPI_1.2	https://spokekp.healthdatascience.cloud/api/v1.2/meta_knowledge_graph	biolink:id
+SPOKE_KP_for_TRAPI_1.2	https://spokekp.healthdatascience.cloud/api/v1.2/meta_knowledge_graph	biolink:qualifiers
+SPOKE_KP_for_TRAPI_1.2	https://spokekp.healthdatascience.cloud/api/v1.2/meta_knowledge_graph	biolink:provided_by
+SPOKE_KP_for_TRAPI_1.2	https://spokekp.healthdatascience.cloud/api/v1.2/meta_knowledge_graph	metatype:Boolean
+SPOKE_KP_for_TRAPI_1.2	https://spokekp.healthdatascience.cloud/api/v1.2/meta_knowledge_graph	biolink:has_attribute
+SPOKE_KP_for_TRAPI_1.2	https://spokekp.healthdatascience.cloud/api/v1.2/meta_knowledge_graph	biolink:iri
+SPOKE_KP_for_TRAPI_1.2	https://spokekp.healthdatascience.cloud/api/v1.2/meta_knowledge_graph	biolink:p_value
+COHD_TRAPI_1.2	https://cohd.io/api/meta_knowledge_graph	biolink:supporting_data_source
+COHD_TRAPI_1.2	https://cohd.io/api/meta_knowledge_graph	biolink:has_count
+COHD_TRAPI_1.2	https://cohd.io/api/meta_knowledge_graph	biolink:has_confidence_level
+COHD_TRAPI_1.2	https://cohd.io/api/meta_knowledge_graph	EDAM:operation_3438
+COHD_TRAPI_1.2	https://cohd.io/api/meta_knowledge_graph	biolink:has_evidence
+COHD_TRAPI_1.2	https://cohd.io/api/meta_knowledge_graph	biolink:original_knowledge_source
+COHD_TRAPI_1.2	https://cohd.io/api/meta_knowledge_graph	biolink:provided_by
+COHD_TRAPI_1.2	https://cohd.io/api/meta_knowledge_graph	biolink:p_value
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	DirectEvidence
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	Trial Name
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	ED50
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	reference
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	Reported Cancer Type
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	OmimIDs
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	biolink:FDA_approval_status
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	Pathway
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	Approval Status
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	Potency
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	AFFINITY_UNITS
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	Ki
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	AFFINITY_LOW
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	RECEPTOR_SITE
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	Kd
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	AFFINITY_MEDIAN
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	ORIGINAL_AFFINITY_RELATION
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	InferenceGeneSymbol
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	Notes
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	IC50
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	ENDOGENOUS
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	ORIGINAL_AFFINITY_LOW_NM
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	Mechanism of Interaction
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	sample size
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	biolink:publication
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	CONCENTRATION_RANGE
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	FDR
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	ChEMBL:mechanism_of_action
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	PRIMARY_TARGET
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	Details of the Assay for Interaction
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	ORIGINAL_AFFINITY_UNITS
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	IC90
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	induction-strength
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	ORIGINAL_AFFINITY_MEDIAN_NM
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	Direct Interaction
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	action_type
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	Response Type
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	MEC
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	Evidence Type
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	ACTION_COMMENT
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	Indication/Tumor Type
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	z-score
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	biolink:aggregator_knowledge_source
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	Combination therapy
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	ID50
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	ORIGINAL_AFFINITY_HIGH_NM
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	biolink:relation
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	actions
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	Clinical Status
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	LIGAND_CONTEXT
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	A2
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	Specific Action of the Ligand
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	stoichiometry
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	Interaction
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	biolink:OrganismTaxon
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	activity
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	Kb
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	ChEMBL:action_type
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	ACTION
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	Alteration
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	gene_reaction_rule
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	correlation
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	InteractionActions
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	publication
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	known action
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	FEATURE_ACTION
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	Endogenous Drug?
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	biolink:Publication
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	Variant Effect
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	Interaction Context
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	biolink:OrganismAttribute
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	biolink:primary_knowledge_source
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	Direct Interaction?
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	KB
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	TYPE
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	combination therapy
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	InferenceScore
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	EC50
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	Drug family
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	Novel drug target
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	compartment
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	Fusion protein
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	ASSAY_DESCRIPTION
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	AFFINITY_HIGH
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	inhibition-strength
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	PubMedIDs
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	GeneFormQualifier
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	SELECTIVITY
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	Details of Interaction
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	Specific Binding Site for Interaction
+Molecular_Data_Provider_for_NCATS_Biomedical_Translator	https://molepro-trapi.transltr.io/molepro/trapi/v1.2/meta_knowledge_graph	AC50
+imProving_Agent_for_TRAPI_1.2	https://ia.healthdatascience.cloud/api/v1.2/meta_knowledge_graph	biolink:license
+imProving_Agent_for_TRAPI_1.2	https://ia.healthdatascience.cloud/api/v1.2/meta_knowledge_graph	biolink:has_confidence_level
+imProving_Agent_for_TRAPI_1.2	https://ia.healthdatascience.cloud/api/v1.2/meta_knowledge_graph	biolink:name
+imProving_Agent_for_TRAPI_1.2	https://ia.healthdatascience.cloud/api/v1.2/meta_knowledge_graph	biolink:publications
+imProving_Agent_for_TRAPI_1.2	https://ia.healthdatascience.cloud/api/v1.2/meta_knowledge_graph	biolink:has_evidence
+imProving_Agent_for_TRAPI_1.2	https://ia.healthdatascience.cloud/api/v1.2/meta_knowledge_graph	biolink:id
+imProving_Agent_for_TRAPI_1.2	https://ia.healthdatascience.cloud/api/v1.2/meta_knowledge_graph	biolink:qualifiers
+imProving_Agent_for_TRAPI_1.2	https://ia.healthdatascience.cloud/api/v1.2/meta_knowledge_graph	biolink:provided_by
+imProving_Agent_for_TRAPI_1.2	https://ia.healthdatascience.cloud/api/v1.2/meta_knowledge_graph	metatype:Boolean
+imProving_Agent_for_TRAPI_1.2	https://ia.healthdatascience.cloud/api/v1.2/meta_knowledge_graph	biolink:has_attribute
+imProving_Agent_for_TRAPI_1.2	https://ia.healthdatascience.cloud/api/v1.2/meta_knowledge_graph	biolink:iri
