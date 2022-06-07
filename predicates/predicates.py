@@ -22,7 +22,6 @@ def sample_predicates():
         if spec['info']['x-translator']['component'] == 'KP':
             kp_titles.append(spec['info']['title'])
             team_group = spec['info']['x-translator']['team']
-            print(team_group)
         if 'servers' not in spec:
             print("servers param not found, can't query MKG for:+ " + spec.get('info'))
         else:
