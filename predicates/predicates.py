@@ -6,8 +6,8 @@ from bmt import Toolkit
 import linkml_runtime
 
 tk = Toolkit('https://raw.githubusercontent.com/biolink/biolink-model/2.2.12/biolink-model.yaml')
-tsv_file = open("predicates.tsv", "w")
-tsv_attributes = open("attributes.tsv", "w")
+tsv_file = open("predicates.tsv", "a")
+tsv_attributes = open("attributes.tsv", "a")
 tsv_writer = csv.writer(tsv_file, delimiter='\t')
 tsv_writer_att = csv.writer(tsv_attributes, delimiter='\t')
 
@@ -36,6 +36,7 @@ def sample_predicates():
                 preds, attribs, url = dump_trapi_predicate_results(predicates, predicates_url, team_group)
                 attributes = set(attribs)
                 for attrib in attributes:
+                    print(attrib)
                     if attrib.startswith('infores'):
                         tsv_writer_att.writerow([url, attrib])
 
@@ -54,9 +55,6 @@ def dump_trapi_predicate_results(predicates, url, team_group):
         objectt = edge.get('object')
         preds.append(predicate)
         for team in team_group:
-            tsv_file = open(team + ".tsv", "w")
-            tsv_writer = csv.writer(tsv_file, delimiter='\t')
-
             if 'attributes' in edge and edge.get('attributes') is not None:
                 for attribute in edge.get('attributes'):
                     attribs.append(attribute.get('attribute_type_id'))
@@ -66,7 +64,8 @@ def dump_trapi_predicate_results(predicates, url, team_group):
                                          predicate,
                                          objectt,
                                          attribute.get('attribute_source'),
-                                         attribute.get('attribute_type_id')])
+                                         attribute.get('attribute_type_id'),
+                                         attribute.get('attribute_value')])
             else:
                 tsv_writer.writerow([team,
                                      url,
