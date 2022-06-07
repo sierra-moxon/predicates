@@ -6,6 +6,10 @@ from bmt import Toolkit
 import linkml_runtime
 
 tk = Toolkit('https://raw.githubusercontent.com/biolink/biolink-model/2.2.12/biolink-model.yaml')
+tsv_file = open("predicates.tsv", "w")
+tsv_attributes = open("attributes.tsv", "w")
+tsv_writer = csv.writer(tsv_file, delimiter='\t')
+tsv_writer_att = csv.writer(tsv_attributes, delimiter='\t')
 
 
 def sample_predicates():
@@ -20,8 +24,7 @@ def sample_predicates():
             team_group = spec['info']['x-translator']['team']
             print(team_group)
         if 'servers' not in spec:
-            pprint(spec.get('info'))
-            continue
+            print("servers param not found, can't query MKG for:+ " + spec.get('info'))
         else:
             url = spec['servers'][0]['url']
             if url.endswith('/'):
@@ -33,8 +36,9 @@ def sample_predicates():
             else:
                 preds, attribs, url = dump_trapi_predicate_results(predicates, predicates_url, team_group)
                 attributes = set(attribs)
-                # for attrib in attributes:
-                #    tsv_writer_att.writerow([url, attrib])
+                for attrib in attributes:
+                    if attrib.startswith('infores'):
+                        tsv_writer_att.writerow([url, attrib])
 
 
 def in_biolink_model(predicate):
