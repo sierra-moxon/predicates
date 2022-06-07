@@ -1,0 +1,313 @@
+related to	related to at concept level	related to at instance level	disease has location	composed primarily of
+related to at concept level	superclass of	subclass of	close match	broad match	narrow match
+related to at instance level	associated with	opposite of	has real world evidence of association with	target for	has target	active in	acts upstream of	has upstream actor	mentions	mentioned by	contributor	has contributor	interacts with	affects	affected by	diagnoses	is diagnosed by	increases amount or activity of	decreases amount or activity of	gene product of	has gene product	transcribed to	transcribed from	translates to	translation of	coexists with	genetic association	affects risk for	risk affected by	contributes to	contribution from	caused by	treated by	has phenotype	phenotype of	occurs in	contains process	located in	location of	similar to	has sequence location	sequence location of	model of	models	overlaps	has participant	participates in	derives into	derives from	manifestation of	has manifestation	produces	produced by	temporally related to	related condition	is sequence variant of	has sequence variant	disease has basis in	occurs in disease	contraindicated for	has contraindication	has not completed	not completed by	has completed	completed by	in linkage disequilibrium with	has increased amount	increased amount of	has decreased amount	decreased amount in	lacks part	missing from	develops from	develops into	in taxon	taxon of	has molecular consequence	is molecular consequence of
+associated with	associated with sensitivity to	sensitivity associated with	associated with resistance to	resistance associated with	correlated with
+superclass of
+subclass of
+same as
+close match	exact match
+exact match	same as
+broad match
+narrow match
+opposite of
+has real world evidence of association with
+target for
+has target
+active in
+acts upstream of	acts upstream of positive effect	acts upstream of negative effect	acts upstream of or within	acts upstream of or within positive effect	acts upstream of or within negative effect
+has upstream actor	has positive upstream actor	has negative upstream actor	has upstream or within actor
+acts upstream of positive effect
+has positive upstream actor
+acts upstream of negative effect
+has negative upstream actor
+acts upstream of or within
+has upstream or within actor	has positive upstream or within actor	has negative upstream or within actor
+acts upstream of or within positive effect
+has positive upstream or within actor
+acts upstream of or within negative effect
+has negative upstream or within actor
+mentions
+mentioned by
+contributor	provider	publisher	editor	author
+has contributor	has provider	has publisher	has editor	has author
+provider
+has provider
+publisher
+has publisher
+editor
+has editor
+author
+has author
+interacts with	physically interacts with	genetically interacts with	directly interacts with
+physically interacts with	chemically interacts with	molecularly interacts with
+chemically interacts with
+molecularly interacts with	decreases molecular interaction	molecular interaction decreased by	increases molecular interaction	molecular interaction increased by
+genetically interacts with
+affects	affects abundance of	affects activity of	affects expression of	affects folding of	affects localization of	affects metabolic processing of	affects molecular modification of	affects synthesis of	affects degradation of	affects mutation rate of	affects response to	affects splicing of	affects stability of	affects transport of	affects secretion of	affects uptake of	process regulates process	entity regulates entity	disrupts	ameliorates	exacerbates	affects expression in
+affected by	abundance affected by	activity affected by	expression affected by	folding affected by	localization affected by	metabolic processing affected by	molecular modification affected by	synthesis affected by	degradation affected by	mutation rate affected by	response affected by	splicing affected by	stability affected by	transport affected by	secretion affected by	uptake affected by	process regulated by process	entity regulated by entity	disrupted by	is ameliorated by	is exacerbated by
+associated with sensitivity to
+sensitivity associated with
+associated with resistance to
+resistance associated with
+diagnoses
+is diagnosed by
+increases amount or activity of	increases abundance of	increases activity of	increases expression of	increases folding of	increases localization of	increases metabolic processing of	increases molecular modification of	increases synthesis of	decreases degradation of	increases mutation rate of	increases response to	increases splicing of	increases stability of	increases transport of	increases secretion of	increases uptake of	increases molecular interaction
+decreases amount or activity of	decreases abundance of	decreases activity of	decreases expression of	decreases folding of	decreases localization of	decreases metabolic processing of	decreases molecular modification of	decreases synthesis of	increases degradation of	decreases mutation rate of	decreases response to	decreases splicing of	decreases stability of	decreases transport of	decreases secretion of	decreases uptake of	decreases molecular interaction
+affects abundance of	increases abundance of	decreases abundance of
+abundance affected by	abundance increased by	abundance decreased by
+increases abundance of
+abundance increased by
+decreases abundance of
+abundance decreased by
+increases activity of
+affects activity of	increases activity of	decreases activity of
+activity affected by	activity increased by	activity decreased by
+activity increased by
+decreases activity of
+activity decreased by
+affects expression of	increases expression of	decreases expression of
+expression affected by	expression increased by	expression decreased by
+increases expression of
+expression increased by
+decreases expression of
+expression decreased by
+affects folding of	increases folding of	decreases folding of
+folding affected by	folding increased by	folding decreased by
+increases folding of
+folding increased by
+decreases folding of
+folding decreased by
+affects localization of	increases localization of	decreases localization of
+localization affected by	localization increased by	localization decreased by
+increases localization of
+localization increased by
+decreases localization of
+localization decreased by
+affects metabolic processing of	increases metabolic processing of	decreases metabolic processing of
+metabolic processing affected by	metabolic processing increased by	metabolic processing decreased by
+increases metabolic processing of
+metabolic processing increased by
+decreases metabolic processing of
+metabolic processing decreased by
+affects molecular modification of	increases molecular modification of	decreases molecular modification of
+molecular modification affected by	molecular modification increased by	molecular modification decreased by
+increases molecular modification of
+molecular modification increased by
+decreases molecular modification of
+molecular modification decreased by
+affects synthesis of	increases synthesis of	decreases synthesis of
+synthesis affected by	synthesis increased by	synthesis decreased by
+increases synthesis of
+synthesis increased by
+decreases synthesis of
+synthesis decreased by
+affects degradation of	increases degradation of	decreases degradation of
+degradation affected by	degradation increased by	degradation decreased by
+increases degradation of
+degradation increased by
+decreases degradation of
+degradation decreased by
+affects mutation rate of	increases mutation rate of	decreases mutation rate of
+mutation rate affected by	mutation rate increased by	mutation rate decreased by
+increases mutation rate of
+mutation rate increased by
+decreases mutation rate of
+mutation rate decreased by
+affects response to	increases response to	decreases response to
+response affected by	response increased by	response decreased by
+increases response to
+response increased by
+decreases response to
+response decreased by
+affects splicing of	increases splicing of	decreases splicing of
+splicing affected by	splicing increased by	splicing decreased by
+increases splicing of
+splicing increased by
+decreases splicing of
+splicing decreased by
+affects stability of	increases stability of	decreases stability of
+stability affected by	stability increased by	stability decreased by
+increases stability of
+stability increased by
+decreases stability of
+stability decreased by
+affects transport of	increases transport of	decreases transport of
+transport affected by	transport increased by	transport decreased by
+increases transport of
+transport increased by
+decreases transport of
+transport decreased by
+affects secretion of	increases secretion of	decreases secretion of
+secretion affected by	secretion increased by	secretion decreased by
+increases secretion of
+secretion increased by
+decreases secretion of
+secretion decreased by
+affects uptake of	increases uptake of	decreases uptake of
+uptake affected by	uptake increased by	uptake decreased by
+increases uptake of
+uptake increased by
+decreases uptake of
+uptake decreased by
+process regulates process	process positively regulates process	process negatively regulates process
+process regulated by process	process positively regulated by process	process negatively regulated by process
+process positively regulates process
+process positively regulated by process
+process negatively regulates process
+process negatively regulated by process
+entity regulates entity	entity positively regulates entity	entity negatively regulates entity
+entity regulated by entity	entity positively regulated by entity	entity negatively regulated by entity
+entity positively regulates entity
+entity positively regulated by entity
+entity negatively regulates entity
+entity negatively regulated by entity
+disrupts
+disrupted by
+gene product of
+has gene product
+transcribed to
+transcribed from
+translates to
+translation of
+homologous to	paralogous to	orthologous to	xenologous to
+paralogous to
+orthologous to
+xenologous to
+coexists with	in pathway with	in complex with	in cell population with	colocalizes with
+in pathway with
+in complex with
+in cell population with
+colocalizes with
+genetic association	gene associated with condition	condition associated with gene
+gene associated with condition
+condition associated with gene
+affects risk for	predisposes	prevents
+risk affected by	prevented by
+predisposes
+contributes to	causes
+contribution from
+causes	causes adverse event	adverse event caused by
+caused by
+ameliorates	treats
+is ameliorated by
+exacerbates
+is exacerbated by
+treats	approved to treat
+treated by	approved for treatment by
+approved to treat
+approved for treatment by
+prevents
+prevented by
+correlated with	positively correlated with	negatively correlated with	occurs together in literature with	coexpressed with	has biomarker	biomarker for
+positively correlated with
+negatively correlated with
+occurs together in literature with
+coexpressed with
+has biomarker
+biomarker for
+expressed in
+expresses
+has phenotype
+phenotype of
+occurs in
+contains process
+located in	expressed in
+location of	expresses
+disease has location
+similar to	homologous to	chemically similar to
+chemically similar to
+has sequence location
+sequence location of
+model of
+models
+overlaps	has part	part of
+has part	has plasma membrane part	has food component	has active ingredient	has excipient	has variant part
+has plasma membrane part
+composed primarily of
+plasma membrane part of
+part of	plasma membrane part of	food component of	is active ingredient of	is excipient of	variant part of
+has input	consumes
+is input of	consumed by
+has output
+is output of
+has participant	has input	has output	has catalyst	has substrate	actively involves	enabled by
+catalyzes
+has catalyst
+has substrate
+is substrate of
+participates in	is input of	is output of	catalyzes	is substrate of	actively involved in	enables
+actively involved in	capable of
+actively involves	has capability
+capable of
+has capability
+enables
+enabled by
+derives into	has metabolite
+derives from	is metabolite of
+is metabolite of
+has metabolite
+food component of	nutrient of
+has food component	has nutrient
+nutrient of
+has nutrient
+is active ingredient of
+has active ingredient
+is excipient of
+has excipient
+manifestation of
+has manifestation
+produces
+produced by
+consumes
+consumed by
+temporally related to	precedes	preceded by
+precedes
+preceded by
+directly interacts with
+affects expression in
+has variant part
+variant part of
+related condition
+is sequence variant of	is missense variant of	is synonymous variant of	is nonsense variant of	is frameshift variant of	is splice site variant of	is nearby variant of	is non coding variant of
+has sequence variant	has missense variant	has synonymous variant	has nonsense variant	has frameshift variant	has splice site variant	has nearby variant	has non coding variant
+is missense variant of
+has missense variant
+is synonymous variant of
+has synonymous variant
+is nonsense variant of
+has nonsense variant
+is frameshift variant of
+has frameshift variant
+is splice site variant of
+has splice site variant
+is nearby variant of
+has nearby variant
+is non coding variant of
+has non coding variant
+disease has basis in
+occurs in disease
+causes adverse event
+adverse event caused by
+contraindicated for
+has contraindication
+has not completed
+not completed by
+has completed
+completed by
+decreases molecular interaction
+molecular interaction decreased by
+increases molecular interaction
+molecular interaction increased by
+in linkage disequilibrium with
+has increased amount
+increased amount of
+has decreased amount
+decreased amount in
+lacks part
+missing from
+develops from
+develops into
+in taxon
+taxon of
+has molecular consequence
+is molecular consequence of
