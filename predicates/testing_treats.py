@@ -47,14 +47,41 @@ def run():
     # write DataFrame to CSV file
     # df.to_csv('metakg.csv', index=False)
     rows = df.to_dict('records')
+    return rows
+
+
+def query_endpoint():
+    rows = run()
+    for row in rows:
+        trapi = make_trapi(row.get('subject'), row.get('object'), row.get('predicate'))
+        print(trapi)
+    return None
+
+
+def make_trapi(subject: str, object: str, predicate: str):
+    return ""
+
+
+def get_id_prefixes():
+    rows = run()
     for row in rows:
         subject = "biolink:"+row.get('subject')
         element = tk.get_element(subject)
-        id_prefixes = element.id_prefixes
-        if len(id_prefixes) == 0:
-            ancestors = tk.get_ancestors(element)
+        id_prefixes = []
+        if element is not None and "id_prefixes" not in element:
+            ancestors = tk.get_ancestors(element.name)
             for ancestor in ancestors:
-                id_prefixes.append(tk.get_element(ancestor).id_prefixes)
-        resource = id_prefixes[0]
-        print(resource)
+                if tk.get_element(ancestor).id_prefixes is not None:
+                    id_prefixes = id_prefixes + tk.get_element(ancestor).id_prefixes
+                    break
+        else:
+            if element is None:
+                print(subject + " isn't a valid biolink item?")
+            else:
+                id_prefixes = element.id_prefixes
+        if len(id_prefixes) != 0:
+            resource = id_prefixes[0]
+            print(resource)
+        else:
+            print("id prefixes is empty for: " + subject)
 
