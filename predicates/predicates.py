@@ -5,7 +5,7 @@ from pprint import pprint
 from bmt import Toolkit
 import linkml_runtime
 
-tk = Toolkit('https://raw.githubusercontent.com/biolink/biolink-model/2.4.4/biolink-model.yaml')
+tk = Toolkit('https://raw.githubusercontent.com/biolink/biolink-model/3.2.7/biolink-model.yaml')
 tsv_file = open("predicates.tsv", "a")
 tsv_attributes = open("attributes.tsv", "a")
 tsv_writer = csv.writer(tsv_file, delimiter='\t')
